@@ -18,7 +18,6 @@ class BlingPhpApi {
 
     public function getPedidos()
     {
-        $this->pedidos = new PedidosList($this->conf);
-        return $this->pedidos->getList();
+        return new PedidosList($this->config);
     }
 }
