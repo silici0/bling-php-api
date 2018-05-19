@@ -1,0 +1,20 @@
+{
+    "name": "silici0/bling-php-api",
+    "description": "PHP script to access Bling API v2",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "silici0@gmail.com"
+        }
+    ],
+    "require": {
+        "curl/curl": "^1.8",
+        "hassankhan/config": "^0.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "silici0\\BlingPhpApi\\" : "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
